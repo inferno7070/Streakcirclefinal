@@ -1,0 +1,31 @@
+/* ===== light theme ===== */
+html[data-theme=light]{--bg:rgba(60,10,20,.06);--card:rgba(255,255,255,.78);--ink:#2A0A10;--mut:rgba(42,10,16,.62);--line:rgba(42,10,16,.14);--pri:#D90F36;--hot:#B45309;--ok:#16A34A;color-scheme:light}
+html[data-theme=light] body{background:radial-gradient(70% 45% at 88% 8%,rgba(255,77,90,.22),transparent 70%),#FFF3F1;color:#2A0A10}
+html[data-theme=light] .card,html[data-theme=light] .stats div{background:rgba(255,255,255,.82);border-color:rgba(42,10,16,.1);box-shadow:0 8px 24px -14px rgba(142,0,32,.3)}
+html[data-theme=light] .hero{background:linear-gradient(135deg,#FF4D5A,#D90F36);color:#fff;border:0;box-shadow:0 14px 34px -14px rgba(217,15,54,.6)}
+html[data-theme=light] button{background:rgba(42,10,16,.07);color:#2A0A10}
+html[data-theme=light] .hero button{background:rgba(255,255,255,.2);color:#fff}
+html[data-theme=light] .pri,html[data-theme=light] .okb{background:#D90F36;color:#fff}
+html[data-theme=light] .okb{background:#16A34A}
+html[data-theme=light] .note button,html[data-theme=light] .ib:hover{background:rgba(42,10,16,.1)}
+html[data-theme=light] nav{background:#fff;border-color:rgba(42,10,16,.12)}html[data-theme=light] nav button{color:rgba(42,10,16,.65)}html[data-theme=light] nav button.on{background:#D90F36;color:#fff}
+html[data-theme=light] .toast{background:#2A0A10;color:#fff}
+html[data-theme=light] .bar,html[data-theme=light] .lb{background:rgba(42,10,16,.1)}html[data-theme=light] .bar span{background:#D90F36}html[data-theme=light] .bar.ok span{background:#16A34A}
+html[data-theme=light] .ico{background:rgba(217,15,54,.08)}
+html[data-theme=light] input,html[data-theme=light] select{background:#fff;color:#2A0A10;border-color:rgba(42,10,16,.2)}html[data-theme=light] input::placeholder{color:rgba(42,10,16,.45)}
+html[data-theme=light] input[type=time]{color-scheme:light}
+html[data-theme=light] .tg{background:rgba(42,10,16,.07)}html[data-theme=light] .tg.p-high{background:rgba(180,83,9,.15);color:#B45309}
+html[data-theme=light] .seg{background:rgba(42,10,16,.07)}html[data-theme=light] .seg button.on,html[data-theme=light] .fc.on{background:#D90F36;color:#fff}
+html[data-theme=light] .md{background:#fff;color:#2A0A10;border-color:rgba(42,10,16,.12)}
+html[data-theme=light] .pk button.on{background:#FFE3E6;box-shadow:0 0 0 2px #D90F36}
+html[data-theme=light] .cd{background:rgba(42,10,16,.06);color:rgba(42,10,16,.6)}html[data-theme=light] .cd.ok{background:#16A34A;color:#fff}html[data-theme=light] .cd.ms{background:rgba(217,15,54,.25);color:#7a0a20}html[data-theme=light] .cd.fz{background:rgba(59,130,246,.3);color:#12337a}html[data-theme=light] .cd.td{box-shadow:0 0 0 2px #D90F36}
+html[data-theme=light] .bars .tr{background:rgba(42,10,16,.08)}html[data-theme=light] .bars .tr i{background:#D90F36}
+html[data-theme=light] .cb{background:rgba(42,10,16,.08)}html[data-theme=light] .cm.me .cb{background:#D90F36;color:#fff}
+html[data-theme=light] .rx button.on{background:#D90F36;color:#fff}
+html[data-theme=light] .dots i{background:rgba(42,10,16,.1)}html[data-theme=light] .dots i.on{background:#16A34A}
+html[data-theme=light] .heat i{background:#D90F36}html[data-theme=light] .av{border-color:#fff}
+html[data-theme=light] .flame{color:#B45309}html[data-theme=light] .link{color:rgba(42,10,16,.6)}
+html[data-theme=light] .orbit .ring .f{stroke:#16A34A}html[data-theme=light] .ring .t{stroke:rgba(42,10,16,.12)}html[data-theme=light] .ring .f{stroke:#D90F36}
+html[data-theme=light] .hero .ring .t{stroke:rgba(255,255,255,.3)}html[data-theme=light] .hero .ring .f{stroke:#fff}html[data-theme=light] .hero .ring b{color:#fff}
+html[data-theme=light] .err{color:#B91C1C}
+

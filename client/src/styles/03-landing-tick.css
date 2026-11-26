@@ -1,0 +1,13 @@
+/* ===== 3. LANDING HERO + TICK 3D canvas, speech bubble and chat panel ===== */
+#lp{position:relative;min-height:100vh;overflow:hidden;display:flex;align-items:center;padding:0 clamp(18px,5vw,64px);color:#fff;background:radial-gradient(120% 90% at 72% 40%,#FF4D5A 0%,#D90F36 42%,#8E0020 100%)}
+#lp .tb{position:absolute;left:0;right:0;top:0;padding:calc(22px + env(safe-area-inset-top,0px)) clamp(18px,5vw,64px) 0;display:flex;justify-content:space-between;align-items:center;z-index:3;font-size:19px}
+#lp .tb b{font-weight:600;letter-spacing:-.02em;font-size:23px}#lp .hn{display:flex;gap:18px}
+#lp .tb button,#lp .tb a{background:none;color:#fff;padding:0;border-radius:0;font-weight:400;font-size:inherit}.hn button:hover{text-decoration:underline}
+#lp .tb .gt{text-decoration:underline;text-underline-offset:4px}
+#c3{position:absolute;right:0;bottom:0;width:58%;height:100%;z-index:1;cursor:pointer;touch-action:pan-y}
+#lp .tx{position:relative;z-index:2;max-width:560px;padding-top:60px}
+#lp .tx p.k{font-size:15px;opacity:.7;margin-bottom:16px;filter:blur(1.2px)}
+#lp h1{font-size:clamp(28px,3.4vw,42px);font-weight:500;letter-spacing:-.025em;line-height:1.15;margin:0 0 26px}
+.pl{display:flex;flex-wrap:wrap;gap:10px}.pill{background:#fff;color:#2a0a10;border-radius:99px;padding:11px 20px;font-weight:500;font-size:16px}
+.pill.dk{background:#1b0508;color:#fff}.pill.ol{background:transparent;color:#fff;border:1px solid #fff}.pill:hover{transform:translateY(-2px)}
+@media (max-width:760px){#lp{align-items:flex-end;padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}#c3{width:100%;height:58%;top:50px;bottom:auto}#lp .tx{padding-top:0}#lp .hn{display:none}}

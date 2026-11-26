@@ -1,0 +1,25 @@
+/* ===== 5. FIXES ===== */
+/* Hide the bottom-nav pill when empty (logged out): it showed as a black dot at the top centre */
+nav:empty{display:none}
+
+/* ===== 6. FULL LIGHT THEME FOR THE LANDING HERO, TICK BUBBLE AND CHAT PANEL ===== */
+html[data-theme=light] #lp{color:#2A0A10;background:radial-gradient(120% 90% at 72% 40%,#FFD3D8 0%,#FFE7E4 42%,#FFF3F1 100%)}
+html[data-theme=light] #lp::after{background:linear-gradient(transparent,#FFF3F1)}
+html[data-theme=light] #lp .tb button,html[data-theme=light] #lp .tb a{color:#2A0A10}
+html[data-theme=light] .pill{background:#D90F36;color:#fff}
+html[data-theme=light] .pill.dk{background:#2A0A10;color:#fff}
+html[data-theme=light] #sp{background:rgba(255,248,235,.96);color:#4A1800;border-color:#C2680A;text-shadow:none;box-shadow:0 8px 24px rgba(194,104,10,.35)}
+html[data-theme=light] #sp::after{background:#C2680A;box-shadow:none}
+html[data-theme=light] #tp{background:rgba(255,250,242,.97);color:#4A1800;border-color:#C2680A;box-shadow:0 10px 30px rgba(194,104,10,.35)}
+html[data-theme=light] #tp .th{border-bottom-color:rgba(194,104,10,.35)}
+html[data-theme=light] #tp .ti{border-top-color:rgba(194,104,10,.35)}
+html[data-theme=light] #tp button{background:rgba(194,104,10,.14);color:#4A1800}
+html[data-theme=light] #tp input{background:#fff;color:#3A1200;border-color:rgba(194,104,10,.5)}
+html[data-theme=light] .lg.b{background:rgba(194,104,10,.14)}
+html[data-theme=light] .lg.u{background:#4A1800;color:#FFE9C7}
+
+/* ===== 7. NAVIGATION + NO-SELECT FIXES ===== */
+/* Logged in: the page below the hero is at least one screen tall so a tab jump always lands at its top */
+body.in main{min-height:100vh}
+/* The landing hero is decoration: never highlight it when Tick is clicked repeatedly */
+#lp{-webkit-user-select:none;user-select:none}

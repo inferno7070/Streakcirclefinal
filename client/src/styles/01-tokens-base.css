@@ -1,0 +1,7 @@
+
+/* ===== 1. THEME TOKENS (dark by default). Colours, shadows, base reset ===== */
+:root{--bg:rgba(255,255,255,.16);--card:rgba(255,255,255,.12);--ink:#fff;--mut:rgba(255,255,255,.72);--line:rgba(255,255,255,.22);--pri:#fff;--hot:#FFD07A;--ok:#7CFFB2;--shadow:0 10px 30px -12px rgba(60,40,140,.25);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:'Bricolage Grotesque',system-ui,sans-serif;min-height:100vh;padding-bottom:90px}
+main{max-width:760px;margin:0 auto;padding:22px 18px}
+h1,h2,h3,p{margin:0}

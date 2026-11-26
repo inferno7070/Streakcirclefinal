@@ -1,0 +1,32 @@
+/* ===== 4. RED GRADIENT SKIN (overrides earlier tokens; keep this order) ===== */
+body{background:radial-gradient(70% 45% at 88% 8%,rgba(255,77,90,.5),transparent 70%),#8E0020}
+#lp::after{content:'';position:absolute;left:0;right:0;bottom:0;height:150px;background:linear-gradient(transparent,#8E0020);z-index:1;pointer-events:none}
+.card,.stats div{backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:none}.card{border-radius:28px}
+.hero{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);box-shadow:none}
+button{background:rgba(255,255,255,.16);color:#fff}.pri,.okb{background:#fff;color:#2A0A10}.note button{background:rgba(255,255,255,.2)}
+nav{background:#1b0508;border-color:rgba(255,255,255,.15)}nav button{color:rgba(255,255,255,.7);background:none}nav button.on{background:#fff;color:#2A0A10}
+.toast{background:#1b0508;color:#fff}.bar{background:rgba(255,255,255,.18)}.bar span{background:#fff}.bar.ok span{background:#7CFFB2}
+.ico{background:rgba(255,255,255,.16)}select option{color:#000}input::placeholder{color:rgba(255,255,255,.55)}
+main{padding-top:84px}.logo{font-weight:600}
+#sp{position:absolute;right:7%;top:19%;z-index:2;background:#fff;color:#2A0A10;border-radius:22px 22px 22px 6px;padding:12px 16px;font-weight:500;font-size:16px;max-width:250px;min-height:46px;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+#sp::after{content:'';display:inline-block;width:2px;height:1em;background:#D90F36;margin-left:2px;vertical-align:-2px;animation:cur 1s steps(2) infinite}@keyframes cur{50%{opacity:0}}
+@media (max-width:760px){#sp{top:12%;right:5%;font-size:14px}}
+#sp{background:repeating-linear-gradient(0deg,rgba(255,170,60,.07) 0 2px,transparent 2px 4px),rgba(40,8,0,.55);color:#FFDDA6;border:1px solid rgba(255,190,90,.85);border-radius:16px 16px 16px 4px;box-shadow:0 0 28px rgba(255,150,30,.55),inset 0 0 18px rgba(255,150,30,.2);text-shadow:0 0 8px rgba(255,170,60,.9);backdrop-filter:blur(6px)}
+#sp::after{background:#FFB23A;box-shadow:0 0 8px #FFB23A}
+#c3{position:fixed;left:0;top:0;right:auto;bottom:auto;width:100vw;height:100vh;z-index:4;pointer-events:none;cursor:auto}
+#sp{position:fixed;right:auto;top:0;left:0;opacity:0;transition:opacity .4s;pointer-events:none;z-index:5;max-width:min(270px,72vw)}
+#tp{position:fixed;right:14px;bottom:190px;width:min(350px,92vw);max-height:56vh;z-index:6;display:flex;flex-direction:column;background:repeating-linear-gradient(0deg,rgba(255,170,60,.05) 0 2px,transparent 2px 4px),rgba(30,6,0,.86);border:1px solid rgba(255,190,90,.8);border-radius:20px;box-shadow:0 0 30px rgba(255,150,30,.45);backdrop-filter:blur(10px);color:#FFDDA6;overflow:hidden}
+#tp[hidden]{display:none}#tp .th{display:flex;align-items:center;gap:8px;padding:10px 12px;border-bottom:1px solid rgba(255,190,90,.35)}#tp .th span{flex:1;font-size:12px;opacity:.75}
+#tp button{background:rgba(255,170,60,.16);color:#FFDDA6;padding:6px 10px;border-radius:10px;font-size:13px}
+#tl{flex:1;overflow:auto;padding:10px 12px;display:flex;flex-direction:column;gap:8px;min-height:90px}
+.lg{padding:8px 11px;border-radius:14px;font-size:14px;max-width:88%;line-height:1.35}.lg.b{background:rgba(255,170,60,.16);align-self:flex-start}.lg.u{background:#FFDDA6;color:#2A0A10;align-self:flex-end}
+#tq{display:flex;gap:6px;flex-wrap:wrap;padding:0 12px 8px}#tp .ti{display:flex;gap:6px;padding:10px 12px;border-top:1px solid rgba(255,190,90,.35)}
+#tp input{flex:1;background:rgba(255,255,255,.08);border-color:rgba(255,190,90,.4);color:#FFDDA6}
+@media (max-width:760px){#c3{width:100vw;height:100vh;top:0}#sp{right:auto;top:0;font-size:14px}#tp{bottom:176px}nav{top:calc(64px + env(safe-area-inset-top,0px))}main{padding-top:130px}.toast{top:calc(122px + env(safe-area-inset-top,0px))}}
+
+/* --- auth card (added for the real backend; reuses the original tokens) --- */
+.ctl.col{flex-direction:column;align-items:stretch}
+.ctl.col input{width:100%}
+.err{color:var(--hot);font-size:13px;min-height:18px;margin-top:8px}
+.link{background:none;color:var(--mut);text-decoration:underline;padding:6px 4px}
+
